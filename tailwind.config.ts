@@ -4,7 +4,10 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {},
+		fontFamily: {
+			hostgrotesk: ["HostGrotesk", "sans'serif"]
+		}
 	},
 
 	plugins: []
